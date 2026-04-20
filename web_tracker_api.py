@@ -7,12 +7,12 @@ app = FastAPI()
 
 origins = [
     "http://localhost:8000",
-    "https://web-unity-three.vercel.app",
+    "https://web-unity-git-main-lee-taegeons-projects.vercel.app",
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
