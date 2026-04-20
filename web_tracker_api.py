@@ -7,7 +7,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:8000",
-    "https://web-unity-git-main-lee-taegeons-projects.vercel.app",
+    "https://web-unity-three.vercel.app",
 ]
 
 app.add_middleware(
